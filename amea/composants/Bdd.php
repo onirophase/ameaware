@@ -16,15 +16,16 @@ class Bdd
 // 	private static $login = 'root';
 // 	private static $pass = 'mysql07';
 	
-// 	private static $instance = 'AMATT2524_test';
+// 	private static $instance = 'amea';
 // 	private static $serveur = 'localhost' ;
-// 	private static $login = 'AMATT2524';
-// 	private static $pass = '27u65w21';
+// 	private static $login = 'root';
+// 	private static $pass = 'root';
 	
-	private static $instance = 'amea';
+	private static $instance = 'AMATT2524_...';
 	private static $serveur = 'localhost' ;
-	private static $login = 'root';
-	private static $pass = 'root';
+	private static $login = 'AMATT2524';
+	private static $pass = '27u65w21';
+	
 	
 	
 	private static $cont  = null;

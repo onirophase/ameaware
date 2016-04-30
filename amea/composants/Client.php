@@ -67,7 +67,7 @@ class Client {
 		$ok = TRUE;
 		$pdo = Bdd::connecter ();
 		$pdo->setAttribute ( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-		$sql = "INSERT INTO client (nom,prenom,email,fixe,mobile,etat) values(?, ?, ?, ?, ?, ?, ?)";
+		$sql = "INSERT INTO client (nom,prenom,email,fixe,mobile,nature,etat) values(?, ?, ?, ?, ?, ?, ?)";
 		$q = $pdo->prepare ( $sql );
 		if($this->nature=="") {
 			$this->nature="professionnel";
