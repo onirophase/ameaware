@@ -24,7 +24,7 @@ class Bdd
 	private static $instance = 'AMATT2524_...';
 	private static $serveur = 'localhost' ;
 	private static $login = 'AMATT2524';
-	private static $pass = '27u65w21';
+	private static $pass = '********';
 	
 	
 	
